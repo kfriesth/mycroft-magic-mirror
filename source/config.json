@@ -1,6 +1,6 @@
 {
   "paths":{
-    "mycroftCoreDir":"/home/{user-name}/mycroft-core",
-    "installDir":"/home/{user-name}/mycroft-magic-mirror"
+    "mycroftCoreDir":"/home/josh/mycroft-core",
+    "installDir":"/home/josh/mycroft-magic-mirror"
   }
 }

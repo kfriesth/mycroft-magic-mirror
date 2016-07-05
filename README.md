@@ -13,6 +13,7 @@ to run npm install && npm start
 ```$ git clone https://github.com/joshymcd/mycroft-magic-mirror.git```
 
 4. edit config.json in mycroft-magic-mirror folder with two paths to mycroft-core and this mycroft-magic-mirror (i will streamline this part);
+  *NOTE* See below under 'config' section
 5. in terminal
     ```$ cd mycroft-magic-mirror```
     ```$ npm install```
@@ -43,3 +44,8 @@ This runs the UI in Mirror & Auto Mode
 2. ```npm run start-desktop-manual```
 3. ```npm run start-mirror-auto```
 4. ```npm run start-mirror-manual```
+
+## Configurations
+Configurations are held in a .json file under source/baseconfig.json. this contains the default settings.
+
+Any properties placed in source/config.json will override baseconfig.json. this file is ignored by git so should persist between pulls.
