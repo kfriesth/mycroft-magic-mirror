@@ -2,10 +2,20 @@ var React = require('react');
 
 var MyCroftAdminPanel = require('./MycroftAdminPanel.js');
 var PluginZone = require('./PluginZone.js');
-var config = require('../config.json');
+var config = require('../baseconfig.json');
+
+try {
+  var userConfig = require('../config.json');
+} catch (e) {
+  console.log(e);
+  var userConfig = {};
+}
 
 module.exports = React.createClass({
   getInitialState: function() {
+
+    //Merge Configs With User Configs
+    config = $.extend(true,{}, config, userConfig);
 
     var args = global.MCArgs;
     config.args = args;

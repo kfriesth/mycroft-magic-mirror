@@ -1,18 +1,6 @@
 {
-  "pluginsMirror":{
-    "PluginTop" : null,
-    "PluginLeft" : "Clock",
-    "PluginMid" : null,
-    "PluginRight" : null,
-    "PluginBottom" : "MessageLog"
-  },
-  "pluginsDesktop":{
-    "PluginTop" : "Clock",
-    "PluginMid" : "MessageLog",
-    "PluginBottom" : "ChatBox"
-  },
   "paths":{
-    "mycroftCoreDir":"/home/pi/mycroft-core",
-    "installDir":"/home/pi/mycroft-magic-mirror"
+    "mycroftCoreDir":"/home/{user-name}/mycroft-core",
+    "installDir":"/home/{user-name}/mycroft-magic-mirror"
   }
 }

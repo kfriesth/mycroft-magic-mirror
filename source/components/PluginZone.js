@@ -1,6 +1,6 @@
 var React = require('react');
 
-var config = require('../config.json');
+var config = {};
 
 var PluginTop = require('./Blank.js');
 var PluginLeft = require('./Blank.js');
@@ -11,6 +11,7 @@ var PluginBottom = require('./Blank.js');
 
 module.exports = React.createClass({
   componentWillMount: function () {
+    config = this.props.config;
 
     if (this.props.config.args[2] == 'mirror') {
       if (config.pluginsMirror.PluginTop != null) {
