@@ -1,3 +1,21 @@
+# Note i am splitting this project into 3
+1. Mycroft-Electro
+2. Mycroft-Electro-Kiosk (Name tbc)
+3. Mycroft-Electro-Plugins
+
+##Mycroft Electro
+This will be a desktop UI/Client for mycroft (based on what is currently the "Desktop Mode" of this project). This will (eventually) have things such as new windows popping up for things such as weather info and wikipedia pages and other more desktop focused features
+
+##Mycroft-Electro-Koisk (Name tbc)
+Based on Mycroft-Electro (so i will probably make it a fork or something (not too sure yet as my git-fu is not that strong)) and will have mostly the same code with a focus on touch friendlyness and will have a "mirror" mode to make it all black and white for magic mirror setups. the Idea is that this will be used for magic mirror setups and tablet setups (e.g. if you had a wall mounted ouch screen in your house with mycroft installed. or in a car??)
+
+##Mycroft-Electro-Plugins
+As the above two project will use the same type of react based plugins i will move all the currently written plugins to a new repo which can then be a submodule for each.
+
+------------------------------------------------------------------------
+Also im definetly open to suggestions on the new layout/structure :)
+------------------------------------------------------------------------
+
 # A Mycroft UI for Desktop and Magic Mirrors
 A UI for Mycroft designed for a magic mirror also with a desktop mode
 
