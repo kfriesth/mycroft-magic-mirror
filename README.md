@@ -1,9 +1,9 @@
-# Note i am splitting this project into 3
-1. Mycroft-Electro
+# Note i am splitting this project into 3 new repos (so pull the required one below and replace thsi as im not maintaining it anymore)
+1. Mycroft-Electro (https://github.com/joshymcd/mycroft-electro.git)
 2. Mycroft-Electro-Kiosk (Name tbc)
-3. Mycroft-Electro-Plugins
+3. Mycroft-Electro-Plugins (https://github.com/joshymcd/mycroft-electro-plugins)
 
-##Mycroft Electro
+##Mycroft Electro 
 This will be a desktop UI/Client for mycroft (based on what is currently the "Desktop Mode" of this project). This will (eventually) have things such as new windows popping up for things such as weather info and wikipedia pages and other more desktop focused features
 
 ##Mycroft-Electro-Koisk (Name tbc)
